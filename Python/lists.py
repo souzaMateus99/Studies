@@ -18,10 +18,13 @@ print(values[0:3])
 print(values + increment_values)
 
 values[2] = 8
-
 print(values)
 
 # the append() method add a new value in list
 values.append(271)
-
 print(values)
+
+# lists can has other lists inside
+new_values = [['a', 'b', 'c'],[1, 2, 3]]
+print(new_values[0])
+print(new_values[0][1])
