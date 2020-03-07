@@ -6,6 +6,7 @@ def fibonacci(number):
         a, b = b, (a + b)
     print()
 
+
 def fibonacci_2(number):
     a, b = 0, 1
     result = []
@@ -17,5 +18,24 @@ def fibonacci_2(number):
     return result
 
 
-fibonacci(2000)
-print(fibonacci_2(2000))
+# fibonacci(2000)
+# print(fibonacci_2(2000))
+
+
+def default_values(text_print = "I'm default value"):
+    print(text_print)
+
+
+# default_values()
+# default_values('Hello world!')
+
+
+num = 20
+
+def get_number(i = num):
+    print(i)
+
+num = 8
+
+get_number()
+get_number(num)
